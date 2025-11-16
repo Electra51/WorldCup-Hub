@@ -4,19 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Cup 2022</title>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <title>WorldCup Hub - Your Ultimate Football Destination</title>
     <!-- poppins font -->
+    <link rel="stylesheet" href="style1.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
     <!-- fontawesome icon -->
     <script
@@ -25,9 +19,30 @@
   </head>
 
   <body>
-    <main>
-      <!-- header section -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" alt="" class="project-logo" />
+          <div>
+            <div class="logo-text">WorldCup Hub</div>
+          </div>
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="upcoming.html">Matches</a></li>
+          <li><a href="#groups">Groups</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
 
+    <main>
       <section class="header">
         <div class="top-section container">
           <div class="written-side">
@@ -39,30 +54,24 @@
             <a
               class="btn"
               target="_blank"
-              href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/"
+              href="https://www.linkedin.com/in/safayet-nur/"
               >Watch Live <i id="icon" class="fa fa-solid fa-play"></i>
             </a>
           </div>
           <div class="player">
-            <img src="images/Banner Image.png" alt="" />
+            <img src="images/Banner Image.png" alt="Football Player" />
           </div>
         </div>
       </section>
-
-      <!-- middle-section -->
 
       <section class="middle-section container2">
         <div class="side">
           <div class="navbar">
             <div>
-              <a target="_blank" href="http://127.0.0.1:5500/upcoming.html"
+              <a target="_blank" href="upcoming.html" class="new-button"
                 ><button class="one">Upcomming match</button></a
               >
-            </div>
-            <div>
-              <button class="two">All groups</button>
-            </div>
-            <div>
+              <button class="one">All groups</button>
               <button class="three">Blog</button>
             </div>
           </div>
@@ -74,7 +83,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -82,7 +90,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -96,7 +103,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -104,7 +110,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -118,7 +123,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -126,7 +130,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -140,7 +143,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -148,28 +150,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
-                <div class="icons">
-                  <span> <i class="fa fa-regular fa-clock"></i></span>
-                  <span> 10h</span>
-                  <span><i class="fa fa-regular fa-comment-dots"></i></span>
-                  <span>23</span>
-                </div>
-              </div>
-            </div>
-            <div class="sport">
-              <div class="sports-banner">
-                <img src="images/Blog Image.png" alt="" />
-              </div>
-
-              <div class="passage">
-                <div class="sports-title">
-                  <button>Transfer</button>
-                  <h5>
-                    Transfer Live: Chlesea in talks over Kimpenbe Transfer
-                  </h5>
-                </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -183,7 +163,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -191,7 +170,26 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
+                <div class="icons">
+                  <span> <i class="fa fa-regular fa-clock"></i></span>
+                  <span> 10h</span>
+                  <span><i class="fa fa-regular fa-comment-dots"></i></span>
+                  <span>23</span>
+                </div>
+              </div>
+            </div>
 
+            <div class="sport">
+              <div class="sports-banner">
+                <img src="images/Blog Image.png" alt="" />
+              </div>
+              <div class="passage">
+                <div class="sports-title">
+                  <button>Transfer</button>
+                  <h5>
+                    Transfer Live: Chlesea in talks over Kimpenbe Transfer
+                  </h5>
+                </div>
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -205,7 +203,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -213,7 +210,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -227,7 +223,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -235,7 +230,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -249,7 +243,6 @@
               <div class="sports-banner">
                 <img src="images/Blog Image.png" alt="" />
               </div>
-
               <div class="passage">
                 <div class="sports-title">
                   <button>Transfer</button>
@@ -257,7 +250,6 @@
                     Transfer Live: Chlesea in talks over Kimpenbe Transfer
                   </h5>
                 </div>
-
                 <div class="icons">
                   <span> <i class="fa fa-regular fa-clock"></i></span>
                   <span> 10h</span>
@@ -271,19 +263,9 @@
       </section>
 
       <div id="view">
-        <span
-          ><a
-            href="https://mail.google.com/mail/u/0/#inbox"
-            target="_blank"
-            box-shadow:
-            5px
-            10px
-            30px
-            rgba(0,0,0,0.02);
-            class="view-btn"
-            >View all</a
-          ></span
-        >
+        <span>
+          <a href="#" class="view-btn">View all</a>
+        </span>
       </div>
     </main>
 
@@ -301,21 +283,43 @@
       </div>
 
       <div class="footer-icons">
-        <span
-          ><a target="_blank" href="https://web.facebook.com/mimsa.mubassera.7/"
-            ><i class="fa fa-brands fa-facebook-square"></i></a
-        ></span>
         <span>
-          <a target="_blank" href="https://www.instagram.com/safayet_electra/"
-            ><i class="fa fa-brands fa-instagram"></i></a
-        ></span>
-        <span
-          ><a
+          <a target="_blank" href="https://web.facebook.com/mimsa.mubassera.7/">
+            <i class="fa fa-brands fa-facebook-square"></i>
+          </a>
+        </span>
+        <span>
+          <a target="_blank" href="https://www.instagram.com/safayet_electra/">
+            <i class="fa fa-brands fa-instagram"></i>
+          </a>
+        </span>
+        <span>
+          <a
             target="_blank"
-            href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/"
-            ><i class="fa fa-brands fa-linkedin"></i></a
-        ></span>
+            href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/">
+            <i class="fa fa-brands fa-linkedin"></i>
+          </a>
+        </span>
       </div>
     </footer>
+
+    <script>
+      // Mobile menu toggle
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("navMenu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu when clicking on a link
+      document.querySelectorAll(".nav-menu li a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        });
+      });
+    </script>
   </body>
 </html>
