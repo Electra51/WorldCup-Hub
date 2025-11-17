@@ -1,8 +1,6 @@
 # WorldCup-Hub
 
 <div align="start">
-![WorldCupHub Banner](https://img.shields.io/badge/WorldCupHub-football%20Match-6C63FF?style=for-the-badge)
-
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://electra51.github.io/WorldCup-Hub/)
 [![Lighthouse Score](https://img.shields.io/badge/Lighthouse-95%2B-success?style=for-the-badge&logo=lighthouse)](https://electra51.github.io/WorldCup-Hub/)
 
@@ -17,7 +15,7 @@
 
 ---
 
-## 🚀 Live Demo  
+## Live Demo  
 [https://electra51.github.io/WorldCup-Hub/](https://electra51.github.io/WorldCup-Hub/)
 
 ---
